@@ -1,6 +1,7 @@
-# Community Template Repo
+# Bash_utils
 
-Template repo with docs and GitHub Actions etc, to create other projects.
+Some bash utilites to improve your life.
+
 
 
 bash_aliases
