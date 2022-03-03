@@ -29,5 +29,5 @@ $ls-size ./miniconda3/*
 8.0K    ./miniconda3/ssl
 8.0K    ./miniconda3/x86_64-conda_cos6-linux-gnu
 8.0K    ./miniconda3/x86_64-conda-linux-gnu
-16G     .          #<-----------Total size
+16G     .          <-----------This is the Total size
 ```
