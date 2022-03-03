@@ -7,8 +7,11 @@ Some bash utilites to improve your life.
 bash_aliases
 are meant to be added to your .bashrc/bash_aliases or zshrc file for ease of use
 
-Usage:
+## Usage
 
+ls-size:
+
+Using ls-size gives the list of files with their sizes at the respective path.
 ```
 $ls-size ./miniconda3/*
 21M     ./miniconda3/bin
