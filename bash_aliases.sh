@@ -15,4 +15,5 @@ alias git-graph='git log --graph --oneline'                      # A simpler heu
 alias git-show-lastn=' bash /home/meow/scripts/gitshowcom.sh $1' # Look behind at the nth commit back in the log.
 
 # Utils
-alias ls-size='du -s $1 | sort -rn | cut -f2- | xargs -d "\n" du -sh' # Get size of files within given path 
+function lsize() { du -s ${1}/* | sort -rn | cut -f2- | xargs -d "\n" du -sh }
+alias ls-size='lsize $1wq'
