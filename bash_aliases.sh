@@ -17,3 +17,8 @@ alias git-show-lastn=' bash /home/meow/scripts/gitshowcom.sh $1' # Look behind a
 # Utils
 function lsize() { du -s ${1}/* | sort -rn | cut -f2- | xargs -d "\n" du -sh }
 alias ls-size='lsize $1wq'
+
+alias speedread='~/$USER/Downloads/speedread/speedread $1'
+
+function bat-help(){ $1 --help | batcat }  #Bat is requird
+alias bathelp='bat-help $1'
