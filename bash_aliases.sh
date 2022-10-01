@@ -18,7 +18,7 @@ alias git-show-lastn=' bash /home/meow/scripts/gitshowcom.sh $1' # Look behind a
 # Utils
 function lsize() { du -s ${1}/* | sort -rn | cut -f2- | xargs -d "\n" du -sh }
 alias ls-size='lsize $1wq'
-alias ls-hidden='ls -d .* --color=auto'
+alias ls-hidden='ls -d .* --color=auto'  # List hidden files
 
 alias speedread='~/$USER/Downloads/speedread/speedread $1'
 
