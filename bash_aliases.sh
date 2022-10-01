@@ -22,3 +22,21 @@ alias speedread='~/$USER/Downloads/speedread/speedread $1'
 
 function bat-help(){ $1 --help | batcat }  #Bat is requird
 alias bathelp='bat-help $1'
+
+#Bash util for Setting and unsetting an alias
+
+##!/bin/bash
+# unalias.sh
+
+#shopt -s expand_aliases  # Enables alias expansion.
+
+#alias llm='ls -al | more'
+#llm
+
+#echo
+
+#unalias llm              # Unset alias.
+#llm
+# Error message results, since 'llm' no longer recognized.
+
+#exit 0
