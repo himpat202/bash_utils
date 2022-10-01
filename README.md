@@ -31,3 +31,23 @@ $ls-size ./miniconda3/*
 8.0K    ./miniconda3/x86_64-conda-linux-gnu
 16G     .          <-----------This is the Total size
 ```
+
+Other bash commands are :
+cd
+The cd (change directory) command is used to navigate in the directory tree structure.
+
+Syntax
+cd [OPTIONS] directory
+
+The command can take only two options-L to specify if symbolic links should be followed or P to specify that they shouldn’t.
+
+rm
+rm (remove) command is used to delete files, directories or even symbolic links from your file system. Some of the most useful options are:
+
+rm -i: Remove all the files in the directory but let user confirm before deleting it
+rm -r: Remove non-empty directories including all the files within them
+rm -f: Remove files or directories without prompting even if they are write-protected — f stands for force.
+Syntax
+rm [OPTIONS]... FILE...
+
+
