@@ -14,6 +14,9 @@ alias conda-ls='conda env list'        # List conda environments
 alias git-graph='git log --graph --oneline'                      # A simpler heuristic                                   
 alias git-show-lastn=' bash /home/meow/scripts/gitshowcom.sh $1' # Look behind at the nth commit back in the log.
 
+## Hidden Files ##
+alias l.='ls -d .* --color=auto'
+
 # Utils
 function lsize() { du -s ${1}/* | sort -rn | cut -f2- | xargs -d "\n" du -sh }
 alias ls-size='lsize $1wq'
